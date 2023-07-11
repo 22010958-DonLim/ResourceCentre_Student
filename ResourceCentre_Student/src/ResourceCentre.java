@@ -278,7 +278,7 @@ public class ResourceCentre {
         if (isLoaned == false) {
           System.out.println("Invalid asset tag");
         } else {
-          System.out.println("Camcorder " + tag + " loaned out");
+          System.out.println("Chromebook " + tag + " loaned out");
         }
       }
       
@@ -338,7 +338,7 @@ public class ResourceCentre {
     	    if (isReturned == false) {
     	      System.out.println("Invalid asset tag");
     	    } else {
-    	      System.out.println("Camcorder " + tag + " returned");
+    	      System.out.println("Chromebook " + tag + " returned");
     	    }
     	  }
     	}

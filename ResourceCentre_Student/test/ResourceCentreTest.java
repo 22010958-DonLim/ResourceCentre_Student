@@ -309,7 +309,7 @@ public class ResourceCentreTest {
 
         // Test case 3: Return an item that does not exist 
         isReturned = ResourceCentre.doReturnCamcorder(camcorderList, "CC0013");
-        assertFalse("Test the the return of CC0013 fails.", isReturned);    
+        assertFalse("Test the the return of CC0013 fails.", isReturned);    //updated
     }
 
     @Test
